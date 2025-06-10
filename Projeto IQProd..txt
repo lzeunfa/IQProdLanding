@@ -1,0 +1,63 @@
+Projeto Landing Page IQProd.
+Nome do projeto: IQ Produções.
+Desenvolvedor: Eliseu Nóbrega.
+Propósito:
+Divulgar a produtora audiovisual, seus serviços e sua qualidade.
+Status: Em andamento.
+
+O que o projeto propõe?:
+* Um site moderno e rápido com seções de informações sobre
+a produtora audiovisual, serviços que realizam, serviços prestados, clientes atendidos,
+destaques de trabalhos e solicitação de contato.
+
+Tecnologias: HTML | CSS | BOOTSTRAP | JS
+
+Estruturação do site:
+
+Geral
+whats fixo direita baixo
+solicitar contato no meio em todas sec
+
+Sec 1
+VIDEO DE FUNDO
+logo no meio
+
+Combinando:
+bio na esquerda
+solicitar contato na direita
+
+gradiente cinza
+
+
+Sec 2
+detaque dos trabalhos que realizam
+serviços lado a lado todos com espaços ou slider
+
+Sec 3
+Carroussel com clientes
+clicando no cliente será direcionado para o insta do cliente
+
+Sec 4
+Trabalhos concretizados
+redirecionamento pro yt
+descrição e direção em baixo
+
+Sec 5
+Top 3 trabalhos
+Estilo netflix com imagem e número atrás com hover aplicável
+redirecionamento pro yt
+
+Sec 6
+Colaboradores
+
+Sec 7
+CTA
+fale com a gente
+
+Sec 8
+rodapé nossas redes sociais
+
+Preocupações:
+-Comentar o código inteiro;
+-Classes e Ids de fácil interpretação;
+-Código limpo;
