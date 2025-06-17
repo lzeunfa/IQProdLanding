@@ -129,6 +129,8 @@ video{
 
 #servicos{
     padding: 20px;
+
+    border-bottom: 1px solid white;
 }
 
 .card-wrapper{
@@ -186,8 +188,13 @@ video{
     box-shadow: 0px 1px 5px var(--Branco);
 }
 
+/*media screen para ajustar ao diminuir as telas*/
 @media screen and (max-width: 768px){
     .card-wrapper{
         margin: 0 10px 25px;
     }
 }
+
+/*fim section swiper serviços*/
+
+/*inicio section swiper clientes*/
