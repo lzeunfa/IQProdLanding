@@ -9,9 +9,68 @@
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
 
     <!--CSS-->
-    <link rel="stylesheet" href="styleIQ.css">
+    <link rel="stylesheet" href="ESTILOS/styleIQ.css">
+        <!--MQ-->
+        <link rel="stylesheet" href="ESTILOS/mqIQ.css">
+
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
 </head>
 <body>
-    
+    <!--Inicio header-->
+    <header>
+
+        <!--VIDEO DE FUNDO-->
+        <video autoplay loop muted src="VIDEOS/VIDEOTOPO.mov">
+            Seu navegador não suporta videos
+        </video>
+
+        <!--Conteiner geral header-->
+        <div id="conteinerGeralHeader" class="d-flex justify-content-center">
+
+            <!--Conteiner com os conteudos do header para alinhar-->
+            <div id="conteinerConteudoHeader" class="d-flex flex-column">
+
+                <!--div com a logo-->
+                <div id="conteinerLogo" class="align-self-center mb-5">
+
+                    <!--Logo sem fundo-->
+                    <img id="Logo" src="LOGOS/LOGOCAMIQSF.png" alt="LOGOPNGIQ">
+
+                </div>
+                <!--/div com a logo-->
+
+                <!--div com os textos do header-->
+                <div id="conteudosHeader" class="align-self-center d-flex flex-wrap">
+
+                    <div class="frasesHeaderL mr-5"><!--L=left-->
+                        <h2 class="h2Header">TE SURPREENDER É NOSSO OBJETIVO</h2>
+                        <p class="pHeader">ONDE OS MOMENTOS MAIS IMPORTANTES <br> PARA VOCÊ MERECEM SER ETERNOS!</p>
+                    </div>
+
+                    <div class="frasesHeaderR d-flex flex-column"><!--R=right-->
+                        <h2 class="h2Header pb-2">SEUS MOMENTOS, IDEIAS E <br> EMPRESAS EM VÍDEOS E FOTOS.</h2>
+
+                        <!--btn pra orçamento linkado com whatsapp-->
+                        <a id="orcamento" href="">
+                            SOLICITAR ORÇAMENTO
+                        </a>
+                    </div>
+                    
+                </div>
+                <!--/div com os textos do header-->
+                
+            </div>
+            <!--/ conteiner com os conteudos-->
+            
+        </div>
+        <!--/ conteiner geral header-->
+
+    </header>
+    <!--/ header-->
+
+    <!--JS BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="/bootstrap-4.6.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

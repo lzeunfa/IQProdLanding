@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1147px) {
+
+    #conteudosHeader{
+    justify-content: center;
+
+    align-items: center;
+    }
+
+    .frasesHeaderL{
+        text-align: center;
+    }
+
+    .frasesHeaderR{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    #orcamento{
+            align-self: center;
+        }
+    }
+
+@media screen and (max-width:502px) {
+
+    #Logo{
+        width: 380px;
+    }
+}
