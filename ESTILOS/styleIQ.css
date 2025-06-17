@@ -222,56 +222,56 @@ video{
 /*Customização das imagens das capas de clientes*/
 
 #ClienteDM{
-    background-image: url(/IMAGENS/Clientes/ClienteDMFT.png);
+    background-image: url(../IMAGENS/Clientes/ClienteDMFT.png);
     background-size: cover;
 }
 
 #ClienteDM:hover{
-    background-image: url(/IMAGENS/Clientes/ClienteDMFR.png);
+    background-image: url(../IMAGENS/Clientes/ClienteDMFR.png);
 }
 
 /* // */
 
 #ClienteGracie{
-    background-image: url(/IMAGENS/Clientes/ClienteGracieBarraFT.png);
+    background-image: url(../IMAGENS/Clientes/ClienteGracieBarraFT.png);
     background-size: cover;
 }
 
 #ClienteGracie:hover{
-    background-image: url(/IMAGENS/Clientes/ClienteGracieBarraFR.png);
+    background-image: url(../IMAGENS/Clientes/ClienteGracieBarraFR.png);
 }
 
 /* // */
 
 #ClienteSavassiFar{
-    background-image: url(/IMAGENS/Clientes/ClienteSavassiFarFT.png);
+    background-image: url(../IMAGENS/Clientes/ClienteSavassiFarFT.png);
     background-size: cover;
 }
 
 #ClienteSavassiFar:hover{
-    background-image: url(/IMAGENS/Clientes/ClienteSavassiFarFR.png);
+    background-image: url(../IMAGENS/Clientes/ClienteSavassiFarFR.png);
 }
 
 /* // */
 
 #ClienteSavassiNutri{
-    background-image: url(/IMAGENS/Clientes/ClienteSavassiNutFT.png);
+    background-image: url(../IMAGENS/Clientes/ClienteSavassiNutFT.png);
     background-size: cover;
 }
 
 #ClienteSavassiNutri:hover{
-    background-image: url(/IMAGENS/Clientes/ClienteSavassiNutFR.png);
+    background-image: url(../IMAGENS/Clientes/ClienteSavassiNutFR.png);
 }
 
 /* // */
 
 #ClienteZebu{
-    background-image: url(/IMAGENS/Clientes/ClienteZebuFT.png);
+    background-image: url(../IMAGENS/Clientes/ClienteZebuFT.png);
     background-size: cover;
 }
 
 #ClienteZebu:hover{
-    background-image: url(/IMAGENS/Clientes/ClienteZebuFR.png);
+    background-image: url(../IMAGENS/Clientes/ClienteZebuFR.png);
 }
 
 /* fim capa clientes*/
