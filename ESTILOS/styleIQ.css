@@ -135,7 +135,7 @@ video{
 
 .card-wrapper{
     max-width: 1200px;
-    padding: 20px 10px;
+    padding: 10px 0px;
     overflow: hidden;
 }
 
@@ -147,7 +147,7 @@ video{
     user-select: none;
     display: block;
     background-color: #1c1d1ce1;
-    padding: 18px;
+    padding: 5px;
     border-radius: 12px;
     text-decoration: none;
     border: 2px solid transparent;
@@ -215,20 +215,70 @@ video{
     display: block;
     text-decoration: none;
     transition: 0.2s ease;
-}
-
-.card-list-clientes .card-item-clientes .card-link-clientes:active{
-    cursor: grabbing;
-}
-
-.card-list-clientes .card-item-clientes .card-link-clientes:hover{
-    border-color: white;
-}
-
-.card-list-clientes .card-link-clientes .card-image-clientes{
     width: 200px;
     height: 200px;
     border-radius: 50%;
+}
+
+/*Customização das imagens das capas de clientes*/
+
+#ClienteDM{
+    background-image: url(/IMAGENS/Clientes/ClienteDMFT.png);
+    background-size: cover;
+}
+
+#ClienteDM:hover{
+    background-image: url(/IMAGENS/Clientes/ClienteDMFR.png);
+}
+
+/* // */
+
+#ClienteGracie{
+    background-image: url(/IMAGENS/Clientes/ClienteGracieBarraFT.png);
+    background-size: cover;
+}
+
+#ClienteGracie:hover{
+    background-image: url(/IMAGENS/Clientes/ClienteGracieBarraFR.png);
+}
+
+/* // */
+
+#ClienteSavassiFar{
+    background-image: url(/IMAGENS/Clientes/ClienteSavassiFarFT.png);
+    background-size: cover;
+}
+
+#ClienteSavassiFar:hover{
+    background-image: url(/IMAGENS/Clientes/ClienteSavassiFarFR.png);
+}
+
+/* // */
+
+#ClienteSavassiNutri{
+    background-image: url(/IMAGENS/Clientes/ClienteSavassiNutFT.png);
+    background-size: cover;
+}
+
+#ClienteSavassiNutri:hover{
+    background-image: url(/IMAGENS/Clientes/ClienteSavassiNutFR.png);
+}
+
+/* // */
+
+#ClienteZebu{
+    background-image: url(/IMAGENS/Clientes/ClienteZebuFT.png);
+    background-size: cover;
+}
+
+#ClienteZebu:hover{
+    background-image: url(/IMAGENS/Clientes/ClienteZebuFR.png);
+}
+
+/* fim capa clientes*/
+
+.card-list-clientes .card-item-clientes .card-link-clientes:active{
+    cursor: grabbing;
 }
 
 .card-wrapper-clientes .swiper-slide-button{

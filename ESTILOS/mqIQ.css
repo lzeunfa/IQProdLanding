@@ -28,7 +28,11 @@
         width: 380px;
     }
 
-        .frasesHeaderL{
+    .frasesHeaderL{
         margin: 0px;
+    }
+
+    .card-item-clientes{
+        text-align: center;
     }
 }

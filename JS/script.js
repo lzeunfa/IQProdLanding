@@ -49,11 +49,11 @@ new Swiper('.card-wrapper-clientes', {
             slidesPerView: 1
         },
 
-        500:{
+        720:{
             slidesPerView: 2
         },
 
-        728:{
+        928:{
             slidesPerView: 3
         },
 
