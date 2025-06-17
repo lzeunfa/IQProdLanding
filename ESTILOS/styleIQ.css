@@ -40,6 +40,12 @@ body{
     z-index: 2;
 }
 
+#whatsappFix:hover{
+    bottom: 5px;
+    right: 5px;
+
+}
+
 
 /*Começo elementos do header*/
 header{
