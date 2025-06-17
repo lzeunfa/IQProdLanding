@@ -24,25 +24,31 @@
 /*Começo elementos do header*/
 header{
     position: relative;
+
     background-image: linear-gradient(to top, var(--corFundoGeral) 8%, transparent);
 }
 
 video{
     width: 100%;
     height: 100%;
+
     object-fit: cover;
+
     z-index: -1;
+
     position: absolute;
 }
 
 #conteinerConteudoHeader{
     width: 80%;
+
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 #conteudosHeader{
     width: 100%;
+
     justify-content: space-between;
 }
 
@@ -52,12 +58,14 @@ video{
 
 .h2Header{
     color: var(--Branco);
+
     font-weight: 700;
     font-size: 1.6em;
 }
 
 .pHeader{
     color: var(--Branco);
+    
     font-weight: 100;
     font-size: 1.4em;
 }
