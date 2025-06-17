@@ -32,7 +32,12 @@
         margin: 0px;
     }
 
-    .card-item-clientes{
-        text-align: center;
+    #buttonClientes{
+        top: 50%;
+        right: 20px;
+    }
+
+    .card-wrapper-clientes{
+        padding-left: 40px;
     }
 }

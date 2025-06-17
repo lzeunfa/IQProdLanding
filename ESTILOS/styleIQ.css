@@ -207,7 +207,6 @@ video{
 
 .card-list-clientes .card-item-clientes{
     list-style-type: none;
-    margin-right: 0px;
 }
 
 .card-list-clientes .card-item-clientes .card-link-clientes{
@@ -288,7 +287,7 @@ video{
     height: 70px;
     border-radius: 50%;
     top: 25px;
-    right: 30px;
+    right: 10px;
     border: 2px solid white;
 }
 
