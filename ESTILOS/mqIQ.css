@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (max-width:1147px) {
+@media screen and (max-width:1150px) {
 
     #conteudosHeader{
     justify-content: center;
@@ -22,9 +22,13 @@
         }
     }
 
-@media screen and (max-width:502px) {
+@media screen and (max-width:602px) {
 
     #Logo{
         width: 380px;
+    }
+
+        .frasesHeaderL{
+        margin: 0px;
     }
 }

@@ -46,6 +46,10 @@ video{
     justify-content: space-between;
 }
 
+.frasesHeaderL{
+    margin-right: 70px;
+}
+
 .h2Header{
     color: var(--Branco);
     font-weight: 700;
