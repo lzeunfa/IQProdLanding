@@ -22,7 +22,7 @@ new Swiper('.card-wrapper', {
             slidesPerView: 1
         },
 
-        768:{
+        568:{
             slidesPerView: 2
         },
 
@@ -36,19 +36,11 @@ new Swiper('.card-wrapper', {
 //swiper de clientes
 new Swiper('.card-wrapper-clientes', {
     loop: true,
-    spaceBetween: 30,
-
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-    },
+    spaceBetween: 50,
 
     // Navigation arrows
     navigation: {
         nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
     },
 
     //responsividade
@@ -57,7 +49,11 @@ new Swiper('.card-wrapper-clientes', {
             slidesPerView: 1
         },
 
-        768:{
+        500:{
+            slidesPerView: 2
+        },
+
+        728:{
             slidesPerView: 3
         },
 

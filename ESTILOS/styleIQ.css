@@ -160,10 +160,6 @@ video{
     cursor: grabbing;
 }
 
-.card-list .card-item .card-link:hover{
-    border-color: white;
-}
-
 .card-list .card-link .card-image{
     width: 100%;
     height: 100%;
@@ -200,16 +196,18 @@ video{
 /*inicio section swiper clientes*/
 #clientes{
     margin-top: 20px;
+    padding-left: 30px;
 }
 
 .card-wrapper-clientes{
     max-width: 1200px;
-    padding: 20px 10px;
+    padding: 20px 0px;
     overflow: hidden;
 }
 
 .card-list-clientes .card-item-clientes{
     list-style-type: none;
+    margin-right: 0px;
 }
 
 .card-list-clientes .card-item-clientes .card-link-clientes{
