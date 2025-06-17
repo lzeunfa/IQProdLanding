@@ -20,6 +20,18 @@
     100%{transform: translateY(0px);}
 }
 
+#whatsappFix{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    margin: 10px;
+
+    width: 70px;
+
+    z-index: 1;
+}
+
 
 /*Começo elementos do header*/
 header{
