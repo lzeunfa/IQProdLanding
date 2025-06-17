@@ -198,3 +198,59 @@ video{
 /*fim section swiper serviços*/
 
 /*inicio section swiper clientes*/
+#clientes{
+    margin-top: 20px;
+}
+
+.card-wrapper-clientes{
+    max-width: 1200px;
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.card-list-clientes .card-item-clientes{
+    list-style-type: none;
+}
+
+.card-list-clientes .card-item-clientes .card-link-clientes{
+    user-select: none;
+    display: block;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.card-list-clientes .card-item-clientes .card-link-clientes:active{
+    cursor: grabbing;
+}
+
+.card-list-clientes .card-item-clientes .card-link-clientes:hover{
+    border-color: white;
+}
+
+.card-list-clientes .card-link-clientes .card-image-clientes{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.card-wrapper-clientes .swiper-slide-button{
+    color: white;
+    background-color: black;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    top: 25px;
+    right: 30px;
+    border: 2px solid white;
+}
+
+.card-wrapper-clientes .swiper-slide-button:hover{
+    box-shadow: 0px 1px 5px var(--Branco);
+}
+
+/*media screen para ajustar ao diminuir as telas*/
+@media screen and (max-width: 768px){
+    .card-wrapper-clientes{
+        margin: 0 10px 25px;
+    }
+}
