@@ -40,4 +40,12 @@
     .card-wrapper-clientes{
         padding-left: 40px;
     }
+
+    h1{
+    font-size: 1.8em !important;
+    }
+
+    .card-list .card-link .card-image{
+    object-fit: contain;
+    }
 }
