@@ -169,7 +169,7 @@ video{
 }
 
 
-.card-wrapper .swiper-slide-button{
+.card-wrapper .swiper-slide-button, .card-wrapper-clientes .swiper-slide-button{
     color: white;
     background-color: black;
     width: 70px;
@@ -278,17 +278,6 @@ video{
 
 .card-list-clientes .card-item-clientes .card-link-clientes:active{
     cursor: grabbing;
-}
-
-.card-wrapper-clientes .swiper-slide-button{
-    color: white;
-    background-color: black;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    top: 25px;
-    right: 10px;
-    border: 2px solid white;
 }
 
 .card-wrapper-clientes .swiper-slide-button:hover{
