@@ -135,36 +135,49 @@ video{
 
 .card-wrapper{
     max-width: 1200px;
+
     padding: 10px 0px;
+
     overflow: hidden;
 }
 
-.card-list .card-item{
+.card-list .card-item, .card-list-clientes .card-item-clientes{
     list-style-type: none;
 }
 
 .card-list .card-item .card-link{
     user-select: none;
+
     display: block;
+
     background-color: #1c1d1ce1;
+
     padding: 5px;
+
     border-radius: 12px;
-    text-decoration: none;
     border: 2px solid transparent;
+
+    text-decoration: none;
+    
     box-shadow: 0px 10px 10px rgba(0,0,0,0.05);
+
     transition: 0.2s ease;
+
     height: 500px;
 }
 
-.card-list .card-item .card-link:active{
+.card-list .card-item .card-link:active, .card-list-clientes .card-item-clientes .card-link-clientes:active{
     cursor: grabbing;
 }
 
 .card-list .card-link .card-image{
     width: 100%;
     height: 100%;
+
     aspect-ratio: 16 / 9;
+
     object-fit: cover;
+
     border-radius: 10px;
 }
 
@@ -172,50 +185,50 @@ video{
 .card-wrapper .swiper-slide-button, .card-wrapper-clientes .swiper-slide-button{
     color: white;
     background-color: black;
+
     width: 70px;
     height: 70px;
+
     border-radius: 50%;
+    border: 2px solid white;
+
     top: 30px;
     right: 30px;
-    border: 2px solid white;
 }
 
-.card-wrapper .swiper-slide-button:hover{
+.card-wrapper .swiper-slide-button:hover, .card-wrapper-clientes .swiper-slide-button:hover{
     box-shadow: 0px 1px 5px var(--Branco);
 }
-
-/*media screen para ajustar ao diminuir as telas*/
-@media screen and (max-width: 768px){
-    .card-wrapper{
-        margin: 0 10px 25px;
-    }
-}
-
 /*fim section swiper serviços*/
 
 /*inicio section swiper clientes*/
 #clientes{
     margin-top: 20px;
     padding-left: 30px;
+
+    border-bottom: 1px solid white;
 }
 
 .card-wrapper-clientes{
     max-width: 1200px;
-    padding: 20px 0px;
-    overflow: hidden;
-}
 
-.card-list-clientes .card-item-clientes{
-    list-style-type: none;
+    padding: 20px 0px;
+
+    overflow: hidden;
 }
 
 .card-list-clientes .card-item-clientes .card-link-clientes{
     user-select: none;
+
     display: block;
+    
     text-decoration: none;
+
     transition: 0.2s ease;
+
     width: 200px;
     height: 200px;
+    
     border-radius: 50%;
 }
 
@@ -275,18 +288,3 @@ video{
 }
 
 /* fim capa clientes*/
-
-.card-list-clientes .card-item-clientes .card-link-clientes:active{
-    cursor: grabbing;
-}
-
-.card-wrapper-clientes .swiper-slide-button:hover{
-    box-shadow: 0px 1px 5px var(--Branco);
-}
-
-/*media screen para ajustar ao diminuir as telas*/
-@media screen and (max-width: 768px){
-    .card-wrapper-clientes{
-        margin: 0 10px 25px;
-    }
-}

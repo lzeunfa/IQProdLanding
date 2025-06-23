@@ -22,7 +22,7 @@
         }
     }
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
     .card-list .card-link .card-image{
     object-fit: contain;
     }
@@ -37,6 +37,10 @@
 
     .card-list-clientes .card-item-clientes{
         padding-right: 50px;
+    }
+
+    .card-wrapper-clientes, .card-wrapper{
+        margin: 0 10px 25px;
     }
 }
 
