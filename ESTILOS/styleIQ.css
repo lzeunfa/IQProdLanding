@@ -241,13 +241,14 @@ video{
     height: 200px;
 
     border-radius: 50%;
+
+    background-size: cover;
 }
 
 /*Customização das imagens das capas de clientes*/
 
 #ClienteDM{
     background-image: url(../IMAGENS/Clientes/ClienteDMFT.png);
-    background-size: cover;
 }
 
 #ClienteDM:hover{
@@ -258,7 +259,6 @@ video{
 
 #ClienteGracie{
     background-image: url(../IMAGENS/Clientes/ClienteGracieBarraFT.png);
-    background-size: cover;
 }
 
 #ClienteGracie:hover{
@@ -269,7 +269,6 @@ video{
 
 #ClienteSavassiFar{
     background-image: url(../IMAGENS/Clientes/ClienteSavassiFarFT.png);
-    background-size: cover;
 }
 
 #ClienteSavassiFar:hover{
@@ -280,7 +279,6 @@ video{
 
 #ClienteSavassiNutri{
     background-image: url(../IMAGENS/Clientes/ClienteSavassiNutFT.png);
-    background-size: cover;
 }
 
 #ClienteSavassiNutri:hover{
@@ -291,11 +289,40 @@ video{
 
 #ClienteZebu{
     background-image: url(../IMAGENS/Clientes/ClienteZebuFT.png);
-    background-size: cover;
 }
 
 #ClienteZebu:hover{
     background-image: url(../IMAGENS/Clientes/ClienteZebuFR.png);
+}
+
+/* // */
+
+#ClienteLiga{
+    background-image: url(../IMAGENS/Clientes/ClienteLigaGamesFT.png);
+}
+
+#ClienteLiga:hover{
+    background-image: url(../IMAGENS/Clientes/ClienteLigaGamesFR.png);
+}
+
+/* // */
+
+#ClienteCovenant{
+    background-image: url(../IMAGENS/Clientes/ClienteCovenantFT.png);
+}
+
+#ClienteCovenant:hover{
+    background-image: url(../IMAGENS/Clientes/ClienteCovenantFR.png);
+}
+
+/* // */
+
+#ClienteSilvana{
+    background-image: url(../IMAGENS/Clientes/ClienteSilvanaFT.png);
+}
+
+#ClienteSilvana:hover{
+    background-image: url(../IMAGENS/Clientes/ClienteSilvanaFR.png);
 }
 
 /* fim capa clientes*/
