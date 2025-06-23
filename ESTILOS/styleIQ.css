@@ -11,7 +11,7 @@
 :root{
     --corFundoGeral: #282a29;
     --Branco: white;
-    --Tops: #3100A8;
+    --Tops: #8030C8;
 }
 
 /*Fonts*/
@@ -329,8 +329,6 @@ video{
 
 /* inicio top 3 trabalhos*/
 #top3{
-    border: 1px solid red;
-
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -357,7 +355,7 @@ video{
     -webkit-text-stroke: 2px var(--Tops);
     text-shadow: 0 0 2px var(--Tops), 0 0 2px var(--Tops);
 
-    cursor: context-menu;
+    cursor: pointer;
     transition: .5s ease;
 }
 
@@ -376,6 +374,8 @@ video{
     margin-left: 100px;
 
     box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.836);
+
+    border-radius: 10px;
 }
 
 /* fim top 3 trabalhos*/
