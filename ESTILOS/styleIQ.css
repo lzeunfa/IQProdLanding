@@ -177,6 +177,10 @@ video{
     height: 500px;
 }
 
+.card-list .card-item .card-link:hover{
+    border: 2px solid var(--Branco);
+}
+
 .card-list .card-item .card-link:active, .card-list-clientes .card-item-clientes .card-link-clientes:active{
     cursor: grabbing;
 }
