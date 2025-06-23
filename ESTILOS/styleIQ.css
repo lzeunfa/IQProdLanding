@@ -11,7 +11,17 @@
 :root{
     --corFundoGeral: #282a29;
     --Branco: white;
+    --Tops: #3100A8;
 }
+
+/*Fonts*/
+
+@font-face {
+    font-family: 'Orbitron';
+    src: url(../Fonts/Orbitron/Orbitron-VariableFont_wght.ttf);
+}
+
+/* // */
 
 /*animacoes*/
 @keyframes btnorcamento{
@@ -38,12 +48,13 @@ body{
     width: 70px;
 
     z-index: 2;
+
+    transition: .5s;
 }
 
 #whatsappFix:hover{
     bottom: 5px;
     right: 5px;
-
 }
 
 
@@ -130,7 +141,7 @@ video{
 #servicos{
     padding: 20px;
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--Branco);
 }
 
 .card-wrapper{
@@ -183,14 +194,14 @@ video{
 
 
 .card-wrapper .swiper-slide-button, .card-wrapper-clientes .swiper-slide-button{
-    color: white;
+    color: var(--Branco);
     background-color: black;
 
     width: 70px;
     height: 70px;
 
     border-radius: 50%;
-    border: 2px solid white;
+    border: 2px solid var(--Branco);
 
     top: 30px;
     right: 30px;
@@ -206,7 +217,7 @@ video{
     margin-top: 20px;
     padding-left: 30px;
 
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--Branco);
 }
 
 .card-wrapper-clientes{
@@ -228,7 +239,7 @@ video{
 
     width: 200px;
     height: 200px;
-    
+
     border-radius: 50%;
 }
 
@@ -288,3 +299,56 @@ video{
 }
 
 /* fim capa clientes*/
+
+/* inicio top 3 trabalhos*/
+#top3{
+    border: 1px solid red;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid var(--Branco);
+}
+
+.containerTops{
+    position: relative;
+    width: 350px;
+}
+
+.h2Top3{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10em;
+
+    position: absolute;
+
+    z-index: 0;
+    bottom: 0px;
+    left:0px;
+
+    -webkit-text-stroke: 2px var(--Tops);
+    text-shadow: 0 0 2px var(--Tops), 0 0 2px var(--Tops);
+
+    cursor: context-menu;
+    transition: .5s ease;
+}
+
+.h2Top3:hover{
+    font-size: 12em;
+
+    color: var(--Tops);
+
+    -webkit-text-stroke: 2px;
+    text-shadow: none;
+}
+
+.imgTop3{
+    z-index: 1;
+    
+    margin-left: 100px;
+
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.836);
+}
+
+/* fim top 3 trabalhos*/
