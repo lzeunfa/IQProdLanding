@@ -175,6 +175,8 @@ video{
     transition: 0.2s ease;
 
     height: 500px;
+
+    width: 300px;
 }
 
 .card-list .card-item .card-link:hover{
@@ -343,6 +345,7 @@ video{
 
 .containerTops{
     position: relative;
+
     width: 350px;
 }
 
@@ -356,6 +359,10 @@ video{
     font-size: 1.2em;
 
     color: var(--Tops);
+}
+
+#h2Top1{
+    left: 42px;
 }
 
 .h2Top3{
@@ -380,6 +387,10 @@ video{
     text-shadow: none;
 }
 
+.containerImagemTops{
+    position: relative;
+}
+
 .linkImgTops{
     z-index: 1;
     width: 250px;
@@ -395,6 +406,15 @@ video{
     border-radius: 10px;
 
     width: 250px;
+}
+
+.playIcon{
+    position: absolute;
+    z-index: 2;
+
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, 50%);
 }
 
 /* fim top 3 trabalhos*/
