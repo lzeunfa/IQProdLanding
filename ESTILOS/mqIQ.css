@@ -82,5 +82,17 @@
     .card-list-clientes .card-item-clientes .card-link-clientes{
     width: 170px;
     height: 170px;
-}
+    }
+
+    .h2Top3{
+        font-size: 8em;
+    }
+
+    .h2Top3:hover{
+        font-size: 10em;
+    }
+
+    .imgTop3{
+        width: 200px;
+    }
 }
