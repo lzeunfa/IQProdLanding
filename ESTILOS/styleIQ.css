@@ -387,10 +387,6 @@ video{
     text-shadow: none;
 }
 
-.containerImagemTops{
-    position: relative;
-}
-
 .linkImgTops{
     z-index: 1;
     width: 250px;
@@ -406,15 +402,6 @@ video{
     border-radius: 10px;
 
     width: 250px;
-}
-
-.playIcon{
-    position: absolute;
-    z-index: 2;
-
-    top: 40%;
-    left: 65%;
-    transform: translate(-50%, 50%);
 }
 
 /* fim top 3 trabalhos*/
