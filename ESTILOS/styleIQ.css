@@ -10,8 +10,10 @@
 /*variaveis de cor*/
 :root{
     --corFundoGeral: #282a29;
+    --corFundoSecundaria: #1c1d1ce1;
     --Branco: white;
     --Tops: #8030C8;
+
 }
 
 /*Fonts*/
@@ -161,7 +163,7 @@ video{
 
     display: block;
 
-    background-color: #1c1d1ce1;
+    background-color: var(--corFundoSecundaria);
 
     padding: 5px;
 
@@ -407,3 +409,21 @@ video{
 /* fim top 3 trabalhos*/
 
 /* inicio parte de outros serviços */
+#outrosServicos{
+    background-color: var(--corFundoSecundaria);
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+}
+
+.imgOutrosServicos{
+    width: 350px;
+    height: 350px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+}

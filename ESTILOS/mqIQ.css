@@ -73,6 +73,15 @@
     .h2Top3{
         left: 30px;
     }
+
+    .imgOutrosServicos{
+    width: 250px;
+    height: 250px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+    }   
 }
 
 @media screen and (max-width:602px) {
