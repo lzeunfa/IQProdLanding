@@ -414,16 +414,62 @@ video{
 
     border-radius: 10px;
 
+    margin-bottom: 20px;
+
     padding: 20px;
+}
+
+.cardOutrosServicos{
+    background-color: var(--corFundoGeral);
+
+    width: 90%;
+
+    border-radius: 10px;
 
     margin-bottom: 20px;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.664);
 }
 
 .imgOutrosServicos{
-    width: 350px;
-    height: 350px;
+    width: 300px;
 
     border-radius: 10px;
 
     margin: 10px;
 }
+
+.fraseOutrosServicos{
+    font-size: 1.8em;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+
+    color: white;
+
+    align-self: center;
+
+    padding: 0px 10px;
+}
+/* fim parte de outros serviços */
+
+/*inicio section frase 1*/
+
+#secFrase1{
+    background-image: url(../IMAGENS/Fundo/FUNDO\ PONTILHADO.png);
+
+    height: 400px;
+
+    margin-top: 50px;
+}
+
+.fundoFrase{
+    background-color: var(--corFundoGeral);
+
+    width: 600px;
+    height: auto;
+}
+
+/*fim section frase 1*/
+
