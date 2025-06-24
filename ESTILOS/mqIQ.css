@@ -35,7 +35,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
     .card-list .card-link .card-image{
     object-fit: contain;
     }
@@ -74,14 +74,10 @@
         left: 30px;
     }
 
-    .imgOutrosServicos{
-    width: 250px;
-    height: 250px;
-
-    border-radius: 10px;
-
-    margin: 10px;
-    }   
+    .cardOutrosServicos{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 @media screen and (max-width:602px) {
@@ -126,5 +122,23 @@
 
     .h2Top3{
         font-size: 8em;
+    }
+
+    .cardOutrosServicos{
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .imgOutrosServicos{
+    width: 250px;
+
+    border-radius: 10px;
+
+    margin: 10px;
+    }
+
+    .fraseOutrosServicos{
+        font-size: 1.6em;
     }
 }
