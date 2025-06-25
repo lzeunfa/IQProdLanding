@@ -78,6 +78,14 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
+    .cardColaboradores{
+    width: 250px;
+}
+
+    .imgColaboradores{
+    width: 250px;
+    }
 }
 
 @media screen and (max-width:602px) {

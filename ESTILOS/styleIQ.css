@@ -462,6 +462,7 @@ video{
     height: 400px;
 
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 .fundoFrase{
@@ -473,3 +474,34 @@ video{
 
 /*fim section frase 1*/
 
+/* inicio section dos colaboradores*/
+
+.cardColaboradores{
+    width: 300px;
+
+    margin-bottom: 20px;
+}
+
+.imgColaboradores{
+    width: 300px;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.726);
+}
+
+.descricaoColaboradores{
+    color: var(--Branco);
+
+    font-size: 1.5em;
+    font-weight: 300;
+
+    text-align: center;
+
+    border-bottom: 1px solid var(--Branco);
+
+    height: 80px;
+}
+
+
+/* fim section dos colaboradores*/
