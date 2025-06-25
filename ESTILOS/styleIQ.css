@@ -410,8 +410,6 @@ video{
 
 /* inicio parte de outros serviços */
 #outrosServicos{
-    background-color: var(--corFundoSecundaria);
-
     border-radius: 10px;
 
     margin-bottom: 20px;
@@ -420,15 +418,13 @@ video{
 }
 
 .cardOutrosServicos{
-    background-color: var(--corFundoGeral);
-
     width: 90%;
 
     border-radius: 10px;
 
     margin-bottom: 20px;
 
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.664);
+    
 }
 
 .imgOutrosServicos{
