@@ -416,6 +416,45 @@ video{
 
     padding: 20px;
 }
+
+.cardOutrosServicos{
+    background-color: var(--corFundoSecundaria);
+
+    width: 400px;
+
+    height: 500px;
+
+    border-radius: 10px;
+
+    position: relative;
+
+    margin-top: 20px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.836);
+
+    border-bottom: 10px solid white;
+}
+
+.cardOutrosServicos:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.836);
+}
+
+.imgCardOutrosServicos{
+    background-color: var(--Branco);
+
+    border-radius: 50%;
+
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.836);
+}
+
+.paragrafoOutrosServicos{
+    font-size: 1.5em;
+}
 /* fim parte de outros serviços */
 
 /*inicio section frase 1*/
