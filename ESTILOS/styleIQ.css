@@ -480,6 +480,10 @@ video{
 
 /* inicio section dos colaboradores*/
 
+#sectionColaboradores{
+    margin-bottom: 50px;
+}
+
 .cardColaboradores{
     width: 300px;
 
@@ -509,6 +513,24 @@ video{
 
 /* inicio section de solicitação de orçamento*/
 
+#containerSolicitacaoOrcamento{
+    background-image: url(../IMAGENS/Fundo/bordaCircular.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
+    width: 400px;
+    height: 200px;
+}
+
+#solicitacaoOrcamentoLink{
+    font-size: 1.6em;
+}
+
+#solicitacaoOrcamentoLink:hover{
+    font-size: 1.7em;
+
+    text-shadow: 1px 1px 10px black;
+}
 
 /* fim section de solicitação de orçamento*/
