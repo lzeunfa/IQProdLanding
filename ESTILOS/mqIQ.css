@@ -1,17 +1,18 @@
 @charset "UTF-8";
 
-@media screen and (max-width:1199px) {
+@media screen and (max-width:1200px) {
     #containerLinksTop3{
         justify-content: center;
     }
 }
 
+
 @media screen and (max-width:1107px) {
 
     #conteudosHeader{
-    justify-content: center;
+        justify-content: center;
 
-    align-items: center;
+        align-items: center;
     }
 
     .frasesHeaderL{
@@ -24,11 +25,11 @@
     }
 
     #orcamento{
-            align-self: center;
-        }
+        align-self: center;
+    }
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width:992px){
     #containerLinksTop3{
         justify-content: none;
         margin-right: 100px;
@@ -161,5 +162,11 @@
 
     .fraseOutrosServicos{
         font-size: 1.6em;
+    }
+
+    .cardOutrosServicos{
+    width: 300px;
+
+    height: 600px;
     }
 }
