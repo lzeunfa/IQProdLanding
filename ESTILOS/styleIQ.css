@@ -560,3 +560,11 @@ footer ul li{
 }
 
 /* fim footer*/
+
+/* inicio direitos reservados*/
+
+#direitosReservados{
+    background-color: var(--Branco);
+}
+
+/*fim direitos reservados*/
