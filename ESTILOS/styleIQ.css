@@ -533,3 +533,15 @@ video{
 }
 
 /* fim section de solicitação de orçamento*/
+
+/* inicio footer*/
+
+footer{
+    background-color: var(--corFundoSecundaria);
+}
+
+#logoFooter{
+    width: 179px;
+}
+
+/* fim footer*/
