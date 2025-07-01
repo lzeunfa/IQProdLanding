@@ -101,8 +101,8 @@
         font-size: 1.5em;
     }
 
-    #containerLogoFooter{
-        justify-content: center !important;
+    #containerTituloFooter{
+        border: none !important;
     }
 }
 
