@@ -103,6 +103,7 @@
 
     #containerTituloFooter{
         border: none !important;
+        margin: 0px !important;
     }
 }
 
