@@ -540,10 +540,6 @@ footer{
     background-color: black;
 }
 
-#logoFooter{
-    width: 159px;
-}
-
 footer h4{
     color: var(--Branco);
     font-size:0.8em;
@@ -557,6 +553,10 @@ footer ul{
 footer ul li{
     float: right;
     padding: 0px 10px;
+}
+
+#tituloFooter{
+    font-weight: 300;
 }
 
 /* fim footer*/
