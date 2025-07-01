@@ -146,7 +146,7 @@ video{
     border-bottom: 1px solid var(--Branco);
 }
 
-.card-wrapper{
+.card-wrapper, .card-wrapper-tops{
     max-width: 1200px;
 
     padding: 10px 0px;
@@ -348,7 +348,7 @@ video{
 .containerTops{
     position: relative;
 
-    width: 350px;
+    width: 300px;
 }
 
 .linkTops{
@@ -403,7 +403,7 @@ video{
 
     border-radius: 10px;
 
-    width: 250px;
+    width: 200px;
 }
 
 /* fim top 3 trabalhos*/
