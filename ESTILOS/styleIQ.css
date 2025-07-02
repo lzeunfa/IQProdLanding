@@ -215,7 +215,7 @@ video{
     right: 30px;
 }
 
-.card-wrapper .swiper-slide-button:hover, .card-wrapper-clientes .swiper-slide-button:hover{
+.card-wrapper .swiper-slide-button:hover, .card-wrapper-clientes .swiper-slide-button:hover, .card-wrapper-tops .swiper-slide-button-tops:hover{
     box-shadow: 0px 1px 5px var(--Branco);
 }
 /*fim section swiper serviços*/
