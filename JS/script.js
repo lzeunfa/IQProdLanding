@@ -61,15 +61,10 @@ new Swiper('.card-wrapper-clientes', {
     }
 });
 
+/*swiper dos tops 5 */
 new Swiper('.card-wrapper-tops', {
     loop: true,
-    spaceBetween: 30,
-
-    // If we need pagination
-    pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-    },
+    spaceBetween: 10,
 
     // Navigation arrows
     navigation: {
@@ -82,7 +77,7 @@ new Swiper('.card-wrapper-tops', {
             slidesPerView: 1
         },
 
-        568:{
+        720:{
             slidesPerView: 2
         },
 

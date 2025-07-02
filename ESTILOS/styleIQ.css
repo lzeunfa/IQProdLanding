@@ -146,7 +146,7 @@ video{
     border-bottom: 1px solid var(--Branco);
 }
 
-.card-wrapper, .card-wrapper-tops{
+.card-wrapper{
     max-width: 1200px;
 
     padding: 10px 0px;
@@ -201,7 +201,7 @@ video{
 }
 
 
-.card-wrapper .swiper-slide-button, .card-wrapper-clientes .swiper-slide-button{
+.card-wrapper .swiper-slide-button, .card-wrapper-clientes .swiper-slide-button, .card-wrapper-tops .swiper-slide-button-tops{
     color: var(--Branco);
     background-color: black;
 
@@ -228,7 +228,7 @@ video{
     border-bottom: 1px solid var(--Branco);
 }
 
-.card-wrapper-clientes{
+.card-wrapper-clientes, .card-wrapper-tops{
     max-width: 1200px;
 
     padding: 20px 0px;
@@ -336,14 +336,6 @@ video{
 /* fim capa clientes*/
 
 /* inicio top 3 trabalhos*/
-#top3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    padding-bottom: 20px;
-
-    border-bottom: 1px solid var(--Branco);
-}
 
 .containerTops{
     position: relative;
@@ -404,6 +396,10 @@ video{
     border-radius: 10px;
 
     width: 200px;
+}
+
+.card-wrapper-tops .swiper-slide-button-tops{
+    top: 50px;
 }
 
 /* fim top 3 trabalhos*/

@@ -45,7 +45,7 @@
         height: 400px;
     }
 
-    .card-list-clientes .card-item-clientes .card-link-clientes{
+    .card-link-clientes{
         margin: auto !important;
     }
 
@@ -62,9 +62,18 @@
         margin-right: 40px;
     }
 
-        .imgTop3{
+    .linkTops{
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgTop3{
         width: 200px;
         margin-left: 100px;
+    }
+
+        .containerTops{
+        margin-right: 80px;
     }
 
     #h2Top1{
@@ -149,6 +158,10 @@
 
     .h2Top3{
         font-size: 8em;
+    }
+
+        .containerTops{
+        margin-right: 80px;
     }
 
     .cardOutrosServicos{
