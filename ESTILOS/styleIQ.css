@@ -143,7 +143,7 @@ video{
 
 /*inicio section swiper serviços*/
 
-#servicos{
+#servicos, #tops5{
     padding: 20px;
 
     border-bottom: 1px solid var(--Branco);
@@ -340,6 +340,8 @@ video{
 
 /* inicio top 5 trabalhos*/
 
+/*o id #tops5 está na mesma linha do id se serviços*/
+
 .containerTops{
     position: relative;
 
@@ -405,7 +407,7 @@ video{
     top: 50px;
 }
 
-/* fim top 3 trabalhos*/
+/* fim top 5 trabalhos*/
 
 /* inicio parte de outros serviços */
 #outrosServicos{
