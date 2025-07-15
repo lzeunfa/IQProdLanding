@@ -6,6 +6,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
+/* // */
 
 /*variaveis de cor*/
 :root{
@@ -15,6 +16,7 @@
     --Tops: #8030C8;
 
 }
+/* // */
 
 /*Fonts*/
 
@@ -58,6 +60,7 @@ body{
     bottom: 5px;
     right: 5px;
 }
+/*fim Icone do whatsapp fixado*/
 
 
 /*Começo elementos do header*/
@@ -335,7 +338,7 @@ video{
 
 /* fim capa clientes*/
 
-/* inicio top 3 trabalhos*/
+/* inicio top 5 trabalhos*/
 
 .containerTops{
     position: relative;
@@ -453,7 +456,7 @@ video{
 }
 /* fim parte de outros serviços */
 
-/*inicio section frase 1*/
+/*inicio section frase*/
 
 #secFrase1{
     background-image: url(../IMAGENS/Fundo/FUNDO\ PONTILHADO.png);
@@ -471,7 +474,7 @@ video{
     height: auto;
 }
 
-/*fim section frase 1*/
+/*fim section frase*/
 
 /* inicio section dos colaboradores*/
 
