@@ -4,7 +4,7 @@
 * Desenvolvedor: Eliseu Nóbrega.<br>
 * Propósito:<br>
 Divulgar a produtora audiovisual, seus serviços e sua qualidade.<br>
-* Status: Em andamento.
+* Status: Finalizado.
 
 ***
 
@@ -60,6 +60,9 @@ CTA
 
 * Sec 9: <br>
 Redes sociais como rodapé
+
+<img width="1696" height="739" alt="image" src="https://github.com/user-attachments/assets/0c122208-544b-4847-b957-363c5cd5d8c9" />
+
 
 ***
 
